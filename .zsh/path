@@ -1,0 +1,10 @@
+#!/bin/zsh
+for p in $(cat $HOME/.homepath)
+do
+    PATH="$HOME/$p:$PATH"
+done
+
+for o in $(cat $HOME/.paths)
+do
+    PATH="$o:$PATH"
+done

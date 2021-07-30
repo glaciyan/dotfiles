@@ -1,0 +1,2 @@
+export MPV_HOME='$HOME/.mpv'
+export CUSTOM_NVIM_PATH=/home/slimetsp/bin/nvim/nvim.0.5.appimage
