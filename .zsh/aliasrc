@@ -19,8 +19,3 @@ alias pdfview="evince"
 alias restart="exec zsh -i"
 alias vi="nvim"
 alias vim="nvim"
-
-TERMCONF='/apps/guake/'
-TERMCONFFILE='.guake'
-alias loadterm='[ -f '$HOME/$TERMCONFFILE' ] && dconf dump $TERMCONF > $TERMCONFFILE.backup && dconf load $TERMCONF < $TERMCONFFILE'
-
