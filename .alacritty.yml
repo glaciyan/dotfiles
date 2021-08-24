@@ -10,6 +10,8 @@ background_opacity: 0.9
 shell:
     program: /usr/bin/zsh
 window:
+    position:
+        x: 200
     dimensions:
         columns: 120
         lines: 30
