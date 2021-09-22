@@ -29,6 +29,7 @@ bindkey -M menuselect 'l' vi-forward-char
 bindkey -M menuselect 'j' vi-down-line-or-history
 
 source $ZSH_FOLDER/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $ZSH_FOLDER/lib/vi-mode/zsh-vi-mode.plugin.zsh
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
