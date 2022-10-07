@@ -13,9 +13,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'itchyny/lightline.vim'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-surround'
-
-" language plugins
-Plug 'rust-lang/rust.vim'
+Plug 'kien/ctrlp.vim'
 
 call plug#end()
 
