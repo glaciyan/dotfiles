@@ -1,1 +1,2 @@
-export MPV_HOME='$HOME/.mpv'
+# e.g.
+# export MPV_HOME='$HOME/.mpv'

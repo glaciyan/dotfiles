@@ -7,15 +7,8 @@ function mkcd {
   cd $1
 }
 alias doit='echo sudo $(fc -ln -1) ; sudo $(fc -ln -1)'
-alias gc='git clone'
-alias gcm='git commit -m'
 alias cd..="cd .."
 alias mkx="chmod +x"
-alias run="./run.sh"
-alias build="./build.sh"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias l="ls -la"
-alias pdfview="evince"
 alias restart="exec zsh -i"
-alias vi="nvim"
-alias vim="nvim"
